@@ -10,8 +10,14 @@ const Navbar = () => {
           Kim Kardashian
         </Link>
         <Spacer />
-        <Link as={RouterLink} to="/projects" fontWeight="medium">
+        <Link as={RouterLink} to="/projects" fontWeight="medium" mr={4}>
           Projects
+        </Link>
+        <Link as={RouterLink} to="/merch" fontWeight="medium" mr={4}>
+          Merch
+        </Link>
+        <Link as={RouterLink} to="/contact" fontWeight="medium">
+          Contact
         </Link>
       </Flex>
     </Box>
