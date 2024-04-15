@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, VStack, HStack, Heading, Text, Image, Divider, Link, IconButton } from "@chakra-ui/react";
 import { FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
+import { Link as RouterLink } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -38,6 +39,9 @@ const Index = () => {
             Businesses
           </Heading>
           <Text>Kardashian has launched multiple businesses including KKW Beauty, KKW Fragrance, and SKIMS shapewear. She is also involved in the retail and fashion industries with her sisters Kourtney and Khloé. They have launched several clothing collections and fragrances, and additionally released the book Kardashian Konfidential in 2010.</Text>
+          <Link as={RouterLink} to="/projects">
+            View Projects
+          </Link>
         </VStack>
       </VStack>
     </Box>
