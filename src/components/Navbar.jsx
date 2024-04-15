@@ -16,8 +16,11 @@ const Navbar = () => {
         <Link as={RouterLink} to="/merch" fontWeight="medium" mr={4}>
           Merch
         </Link>
-        <Link as={RouterLink} to="/contact" fontWeight="medium">
+        <Link as={RouterLink} to="/contact" fontWeight="medium" mr={4}>
           Contact
+        </Link>
+        <Link as={RouterLink} to="/cart" fontWeight="medium">
+          Cart
         </Link>
       </Flex>
     </Box>
